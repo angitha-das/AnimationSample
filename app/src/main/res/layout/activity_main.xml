@@ -14,6 +14,18 @@
         android:layout_above="@+id/btnStart"
         android:text="Animation!"/>
     <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="hello world"/>
+    <TextView
         android:id="@+id/txtMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,8 +38,15 @@
         android:layout_centerHorizontal="true"
         android:text="Animation!"/>
     <Button
+        android:id="@+id/btn"
+        android:text="Serial"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
         android:id="@+id/btnStart"
         android:text="Start"
+        android:layout_toRightOf="@+id/btn"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
